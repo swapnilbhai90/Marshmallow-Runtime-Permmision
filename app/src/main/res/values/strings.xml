@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">RuntimePermission</string>
+    <string name="ok">OK</string>
+    <string name="Storage_string">Total number of Storage: %1$,d\nFirst contact:<b>%2$s</b></string>
+    <string name="Storage_none">No Storage stored on device.</string>
+    <string name="Storage_empty">Storage not loaded.</string>
+    <string name="add_contact">Add a contact</string>
+    <string name="show_contact">Show first contact</string>
+    <string name="Storage_intro">This fragment demonstrates access to the contact database on the device.\n
+            Clicking \"Add a contact\" adds a new contact named "__DUMMY ENTRY" directly into the database.\n
+    Clicking \"Show first contact\" accesses the contact database to display the name of the first contact.</string>
+    <string name="camera_unavailable"><b>Camera could not be opened.</b>\nThis occurs when the camera is not available (for example it is already in use) or if the system has denied access (for example when camera access has been disabled).</string>
+    <string name="back">Back</string>
+    <string name="show_camera">Show camera preview</string>
+    <string name="show_Storage">Show and add Storage</string>
+    <string name="main_introduction">Click the buttons below to show a camera preview or access the Storage database.\nNote that the Storage option is only available on Android M to illustrate the use of optional, M-only permissions that are not requested on lower SDK platforms.</string>
+    <string name="permision_available_camera">Camera Permission has been granted. Preview can now be opened.</string>
+    <string name="permision_available_Storage">Storage Permissions have been granted. Storage screen can now be opened.</string>
+    <string name="permissions_not_granted">Permissions were not granted.</string>
+    <string name="permission_camera_rationale">Camera permission is needed to show the camera preview.</string>
+    <string name="permission_Storage_rationale">External Storage permissions are needed to demonstrate access.</string>
+</resources>
